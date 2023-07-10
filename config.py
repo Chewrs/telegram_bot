@@ -1,2 +1,2 @@
-BOT_KEY = "6042456865:AAFVh7YUbkrmzkDqYsU2DbhS4NAlkWv57vA"
-NINJAS_KEY = "vk47EpqwD07BnO+nL8O4Gg==CoPeTzJTrksmlvHq"
+BOT_KEY = "your_bot_key_here"
+NINJAS_KEY = "your_ninjas_api_key_here"
