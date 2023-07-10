@@ -1,8 +1,7 @@
-import constants as keys
 import responses as R
 from telegram.ext import *
 
-
+API_KEY = "6042456865:AAFVh7YUbkrmzkDqYsU2DbhS4NAlkWv57vA"
 print("bot started...")
 
 
@@ -25,7 +24,7 @@ def error(update, context):
 
 
 def main():
-    updater = Updater(keys.API_KEY, use_context=True)
+    updater = Updater(API_KEY, use_context=True)
     dp = updater.dispatcher
     dp.add_handler(CommandHandler("start", start_command))
     dp.add_handler(CommandHandler("help", help_command))
