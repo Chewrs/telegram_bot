@@ -1,8 +1,6 @@
 from datetime import datetime
-import requests
 import meme as m
 import api
-import bs4_pic
 
 
 def sample_responses(input_text):
@@ -27,6 +25,4 @@ def sample_responses(input_text):
         return api.fact()
     if user_message in ("morning"):
         return api.morning()
-    if user_message in ("pic", "pics", "picture", "porn", "nude", "naked"):
-        return bs4_pic.get_pic()
     return "sorry, i dont understand"
