@@ -1,7 +1,7 @@
 import requests
+import config as c
 
-
-NINJAS_KEY = "vk47EpqwD07BnO+nL8O4Gg==CoPeTzJTrksmlvHq"
+NINJAS_KEY = c.NINJAS_KEY
 
 
 # get the quotes from ninjas api

@@ -1,7 +1,8 @@
 import responses as R
 from telegram.ext import *
+import config as c
 
-API_KEY = "6042456865:AAFVh7YUbkrmzkDqYsU2DbhS4NAlkWv57vA"
+API_KEY = c.BOT_KEY
 print("bot started...")
 
 
